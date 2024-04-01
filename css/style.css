@@ -1,0 +1,171 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+nav {
+  text-align: right;
+  padding: 20px 10px;
+}
+
+nav .nav-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 8px;
+  outline: none;
+
+}
+
+nav .nav-icon:hover {
+  background-color: rgba(232,234,237,.08);
+}
+nav .nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 0,875rem;
+  color: rgb(0, 0, 1);
+
+ 
+ 
+}
+
+nav .nav-button {
+  background-color:rgb(10, 115, 176); 
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: white;
+  margin-left: 8px;
+  padding: 9px 23px;
+  border-radius: 4px;
+}
+
+nav .nav-button:hover {
+  background: rgb(22, 57, 185);
+
+}
+/* Main */
+.google-logo {
+  padding: 10px 0;
+  font-size: ;
+  height: 92px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding: 50px;
+
+
+}
+
+.search-box {
+  border: 1px solid rgb(4, 4, 4);
+  width: 60vw;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: stretch;
+}
+
+.search-input {
+   outline: none;
+   border: none; 
+  background-color: transparent;
+  flex-grow:1 ;
+}
+
+.search-icon {
+  font-size: ;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.google-mix {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.btn-group {
+  display: flex;
+  
+}
+
+.button {
+  width: 150px;
+  height:36px ;
+  border: none;
+  margin: 11px 4px;
+  padding: 0 16px;
+  font-size: 0.875rem;
+  background-color:#f8f9fa ;
+  color: #000;
+}
+
+.languages {
+  font-size: 0.8rem;
+  color: #ccc;
+
+}
+
+.service-item {
+  text-decoration: none;
+  margin-right: 5px;
+}
+/* Footer */
+
+.footer {
+  bottom: 0;
+  background-color: #70757a;
+}
+footer .row {
+  background-color:#ececec;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  background: ;
+  line-height: 40px;
+  padding: 0 30px;
+  border-bottom:1px solid #ccc;
+
+}
+
+footer .row a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+/* Footer */
+@media screen  and (max-with: 650px) {
+footer .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+
+
+
+
